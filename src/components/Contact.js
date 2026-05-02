@@ -2,6 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
+    <>
     <section id="contact" className="p-10">
       <h2 className="text-2xl font-bold text-center">Contact Me</h2>
 
@@ -19,6 +20,10 @@ function Contact() {
         </button>
       </form>
     </section>
+    <p className="mt-4 font-semibold">📞 +254 743 369 783</p>
+    <p>💬 WhatsApp: 0743 369 783</p>
+    <p>📧 sijeyomollo@gmail.com</p>
+    </>
   );
 }
 
